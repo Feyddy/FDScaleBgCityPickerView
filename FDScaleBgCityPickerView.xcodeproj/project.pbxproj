@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B046CAB51E667A1D007AD565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046CAB41E667A1D007AD565 /* AppDelegate.swift */; };
+		B046CAB71E667A1D007AD565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046CAB61E667A1D007AD565 /* ViewController.swift */; };
+		B046CABA1E667A1D007AD565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B046CAB81E667A1D007AD565 /* Main.storyboard */; };
+		B046CABC1E667A1D007AD565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B046CABB1E667A1D007AD565 /* Assets.xcassets */; };
+		B046CABF1E667A1D007AD565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B046CABD1E667A1D007AD565 /* LaunchScreen.storyboard */; };
+		B046CACA1E667A1D007AD565 /* FDScaleBgCityPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046CAC91E667A1D007AD565 /* FDScaleBgCityPickerViewTests.swift */; };
+		B046CAD51E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046CAD41E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B046CAC61E667A1D007AD565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B046CAA91E667A1D007AD565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B046CAB01E667A1D007AD565;
+			remoteInfo = FDScaleBgCityPickerView;
+		};
+		B046CAD11E667A1E007AD565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B046CAA91E667A1D007AD565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B046CAB01E667A1D007AD565;
+			remoteInfo = FDScaleBgCityPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B046CAB11E667A1D007AD565 /* FDScaleBgCityPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDScaleBgCityPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B046CAB41E667A1D007AD565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B046CAB61E667A1D007AD565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B046CAB91E667A1D007AD565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B046CABB1E667A1D007AD565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B046CABE1E667A1D007AD565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B046CAC01E667A1D007AD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B046CAC51E667A1D007AD565 /* FDScaleBgCityPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDScaleBgCityPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B046CAC91E667A1D007AD565 /* FDScaleBgCityPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDScaleBgCityPickerViewTests.swift; sourceTree = "<group>"; };
+		B046CACB1E667A1D007AD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B046CAD01E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDScaleBgCityPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B046CAD41E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDScaleBgCityPickerViewUITests.swift; sourceTree = "<group>"; };
+		B046CAD61E667A1E007AD565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B046CAAE1E667A1D007AD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046CAC21E667A1D007AD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046CACD1E667A1E007AD565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B046CAA81E667A1D007AD565 = {
+			isa = PBXGroup;
+			children = (
+				B046CAB31E667A1D007AD565 /* FDScaleBgCityPickerView */,
+				B046CAC81E667A1D007AD565 /* FDScaleBgCityPickerViewTests */,
+				B046CAD31E667A1E007AD565 /* FDScaleBgCityPickerViewUITests */,
+				B046CAB21E667A1D007AD565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B046CAB21E667A1D007AD565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B046CAB11E667A1D007AD565 /* FDScaleBgCityPickerView.app */,
+				B046CAC51E667A1D007AD565 /* FDScaleBgCityPickerViewTests.xctest */,
+				B046CAD01E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B046CAB31E667A1D007AD565 /* FDScaleBgCityPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				B046CAB41E667A1D007AD565 /* AppDelegate.swift */,
+				B046CAB61E667A1D007AD565 /* ViewController.swift */,
+				B046CAB81E667A1D007AD565 /* Main.storyboard */,
+				B046CABB1E667A1D007AD565 /* Assets.xcassets */,
+				B046CABD1E667A1D007AD565 /* LaunchScreen.storyboard */,
+				B046CAC01E667A1D007AD565 /* Info.plist */,
+			);
+			path = FDScaleBgCityPickerView;
+			sourceTree = "<group>";
+		};
+		B046CAC81E667A1D007AD565 /* FDScaleBgCityPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B046CAC91E667A1D007AD565 /* FDScaleBgCityPickerViewTests.swift */,
+				B046CACB1E667A1D007AD565 /* Info.plist */,
+			);
+			path = FDScaleBgCityPickerViewTests;
+			sourceTree = "<group>";
+		};
+		B046CAD31E667A1E007AD565 /* FDScaleBgCityPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B046CAD41E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.swift */,
+				B046CAD61E667A1E007AD565 /* Info.plist */,
+			);
+			path = FDScaleBgCityPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B046CAB01E667A1D007AD565 /* FDScaleBgCityPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B046CAD91E667A1E007AD565 /* Build configuration list for PBXNativeTarget "FDScaleBgCityPickerView" */;
+			buildPhases = (
+				B046CAAD1E667A1D007AD565 /* Sources */,
+				B046CAAE1E667A1D007AD565 /* Frameworks */,
+				B046CAAF1E667A1D007AD565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDScaleBgCityPickerView;
+			productName = FDScaleBgCityPickerView;
+			productReference = B046CAB11E667A1D007AD565 /* FDScaleBgCityPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B046CAC41E667A1D007AD565 /* FDScaleBgCityPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B046CADC1E667A1E007AD565 /* Build configuration list for PBXNativeTarget "FDScaleBgCityPickerViewTests" */;
+			buildPhases = (
+				B046CAC11E667A1D007AD565 /* Sources */,
+				B046CAC21E667A1D007AD565 /* Frameworks */,
+				B046CAC31E667A1D007AD565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B046CAC71E667A1D007AD565 /* PBXTargetDependency */,
+			);
+			name = FDScaleBgCityPickerViewTests;
+			productName = FDScaleBgCityPickerViewTests;
+			productReference = B046CAC51E667A1D007AD565 /* FDScaleBgCityPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B046CACF1E667A1E007AD565 /* FDScaleBgCityPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B046CADF1E667A1E007AD565 /* Build configuration list for PBXNativeTarget "FDScaleBgCityPickerViewUITests" */;
+			buildPhases = (
+				B046CACC1E667A1E007AD565 /* Sources */,
+				B046CACD1E667A1E007AD565 /* Frameworks */,
+				B046CACE1E667A1E007AD565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B046CAD21E667A1E007AD565 /* PBXTargetDependency */,
+			);
+			name = FDScaleBgCityPickerViewUITests;
+			productName = FDScaleBgCityPickerViewUITests;
+			productReference = B046CAD01E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B046CAA91E667A1D007AD565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = feyddy;
+				TargetAttributes = {
+					B046CAB01E667A1D007AD565 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B046CAC41E667A1D007AD565 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B046CAB01E667A1D007AD565;
+					};
+					B046CACF1E667A1E007AD565 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B046CAB01E667A1D007AD565;
+					};
+				};
+			};
+			buildConfigurationList = B046CAAC1E667A1D007AD565 /* Build configuration list for PBXProject "FDScaleBgCityPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B046CAA81E667A1D007AD565;
+			productRefGroup = B046CAB21E667A1D007AD565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B046CAB01E667A1D007AD565 /* FDScaleBgCityPickerView */,
+				B046CAC41E667A1D007AD565 /* FDScaleBgCityPickerViewTests */,
+				B046CACF1E667A1E007AD565 /* FDScaleBgCityPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B046CAAF1E667A1D007AD565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046CABF1E667A1D007AD565 /* LaunchScreen.storyboard in Resources */,
+				B046CABC1E667A1D007AD565 /* Assets.xcassets in Resources */,
+				B046CABA1E667A1D007AD565 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046CAC31E667A1D007AD565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046CACE1E667A1E007AD565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B046CAAD1E667A1D007AD565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046CAB71E667A1D007AD565 /* ViewController.swift in Sources */,
+				B046CAB51E667A1D007AD565 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046CAC11E667A1D007AD565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046CACA1E667A1D007AD565 /* FDScaleBgCityPickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046CACC1E667A1E007AD565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046CAD51E667A1E007AD565 /* FDScaleBgCityPickerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B046CAC71E667A1D007AD565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B046CAB01E667A1D007AD565 /* FDScaleBgCityPickerView */;
+			targetProxy = B046CAC61E667A1D007AD565 /* PBXContainerItemProxy */;
+		};
+		B046CAD21E667A1E007AD565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B046CAB01E667A1D007AD565 /* FDScaleBgCityPickerView */;
+			targetProxy = B046CAD11E667A1E007AD565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B046CAB81E667A1D007AD565 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B046CAB91E667A1D007AD565 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B046CABD1E667A1D007AD565 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B046CABE1E667A1D007AD565 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B046CAD71E667A1E007AD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B046CAD81E667A1E007AD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B046CADA1E667A1E007AD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDScaleBgCityPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDScaleBgCityPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B046CADB1E667A1E007AD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDScaleBgCityPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDScaleBgCityPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B046CADD1E667A1E007AD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDScaleBgCityPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDScaleBgCityPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDScaleBgCityPickerView.app/FDScaleBgCityPickerView";
+			};
+			name = Debug;
+		};
+		B046CADE1E667A1E007AD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDScaleBgCityPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDScaleBgCityPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDScaleBgCityPickerView.app/FDScaleBgCityPickerView";
+			};
+			name = Release;
+		};
+		B046CAE01E667A1E007AD565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FDScaleBgCityPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDScaleBgCityPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FDScaleBgCityPickerView;
+			};
+			name = Debug;
+		};
+		B046CAE11E667A1E007AD565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FDScaleBgCityPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feyddy.FDScaleBgCityPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FDScaleBgCityPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B046CAAC1E667A1D007AD565 /* Build configuration list for PBXProject "FDScaleBgCityPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046CAD71E667A1E007AD565 /* Debug */,
+				B046CAD81E667A1E007AD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B046CAD91E667A1E007AD565 /* Build configuration list for PBXNativeTarget "FDScaleBgCityPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046CADA1E667A1E007AD565 /* Debug */,
+				B046CADB1E667A1E007AD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B046CADC1E667A1E007AD565 /* Build configuration list for PBXNativeTarget "FDScaleBgCityPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046CADD1E667A1E007AD565 /* Debug */,
+				B046CADE1E667A1E007AD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B046CADF1E667A1E007AD565 /* Build configuration list for PBXNativeTarget "FDScaleBgCityPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046CAE01E667A1E007AD565 /* Debug */,
+				B046CAE11E667A1E007AD565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B046CAA91E667A1D007AD565 /* Project object */;
+}
